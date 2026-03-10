@@ -5,13 +5,13 @@ valor_alcool = litros * 3.79
 
 if tipo_combustivel == "A" and litros <=25:
     desconto = valor_alcool - 2 /100
-    print(f"Valor total com desconto: R${desconto}")
+    print(f"Valor total com desconto: R${desconto:.2f}")
 if tipo_combustivel == "A" and litros >25:
     desconto = valor_alcool - 4 /100
-    print(f"Valor total com desconto é: R${desconto}")
+    print(f"Valor total com desconto é: R${desconto:.2f}")
 if tipo_combustivel == "G" and litros <=25:
     desconto = valor_gasolina - 3 /100
-    print(f"Valor total com desconto é R${desconto}")
+    print(f"Valor total com desconto é R${desconto:.2f}")
 if tipo_combustivel == "G" and litros >25:
     desconto = valor_gasolina - 5 /100
-    print(f"O valor total com desconto é: R${desconto}")
+    print(f"O valor total com desconto é: R${desconto:.2f}")
